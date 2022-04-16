@@ -1,0 +1,96 @@
+body{
+    background: linear-gradient(to right, #ffc87c, rgb(178, 152, 190));
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.loginsection{
+width: 400px;
+background: #ffe5b4;
+border-radius: 3px;
+top: 50%;
+position: absolute;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.loginsection h1{
+text-align: center;
+padding: 3px;
+border-bottom: 1px solid black;
+}
+
+.username{
+font-weight: bold;
+width: 50%;
+align-items: center;
+margin-left: 4%;
+font-family: 'Roboto', sans-serif;
+}
+
+.pword{
+font-weight: bold;
+width: 50%;
+align-items: center;
+margin-left: 4%;
+font-family: 'Roboto', sans-serif;
+}
+
+input[type="text"]{
+    width: 90%;
+    height: 30%;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: rgb(240, 235, 235);
+    padding-left: 0%;
+    padding: 10px;
+    border-radius: 3px;
+  }
+
+  .forgetpassword{
+    margin-left: 5%;
+    cursor: pointer;
+    color: #1a1717;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.forgetpassword:hover{
+    text-decoration: underline;
+}
+
+  input[type="submit"]{
+    width: 30%;
+    height: 30px;
+    border: none;
+    background: palevioletred;
+    border-radius: 5%;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 600px;
+    cursor: pointer;   
+    outline: none;
+   align-self: center;
+   margin-left: 5%;
+   font-weight: bold;
+}
+
+.submit{
+    padding-top: 5%;
+}
+
+  .sign-again{
+    margin: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(14, 13, 13);
+}
+.sign-again a{
+    text-decoration: none;
+}
