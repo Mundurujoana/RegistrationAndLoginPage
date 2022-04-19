@@ -2,6 +2,7 @@
 body{
   background: linear-gradient(to right, rgb(211, 171, 86) , rgb(178, 152, 190));
   background-size: cover;
+  /* overflow: hidden; */
 }
 
 #wrapdivs{
@@ -11,6 +12,8 @@ body{
  padding-top:20px ;
  padding-bottom: 20px;
  display: flex;
+ height: 50px;
+
 }
 
 .left-cont{
